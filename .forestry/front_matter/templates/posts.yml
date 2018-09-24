@@ -8,5 +8,11 @@ fields:
   type: text
   hidden: false
   default: post
+- type: tag_list
+  label: Tags
+  name: tags
+- type: text
+  name: subtitle
+  label: Subtitle
 pages:
 - _posts/hello-test.md
